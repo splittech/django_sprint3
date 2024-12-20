@@ -1,7 +1,6 @@
-from django.shortcuts import render, get_object_or_404  # type: ignore[import-untyped]
-from django.http import Http404  # type: ignore[import-untyped]
+from django.shortcuts import render, get_object_or_404
+from django.http import Http404
 from django.utils import timezone
-from datetime import date
 from .models import Post, Category
 
 

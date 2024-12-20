@@ -1,5 +1,5 @@
-from django.db import models  # type: ignore[import-untyped] # noqa: F401
-from django.contrib.auth import get_user_model  # type: ignore[import-untyped] # noqa: F401
+from django.db import models
+from django.contrib.auth import get_user_model
 
 
 User = get_user_model()
@@ -47,7 +47,7 @@ class Location(models.Model):
 
     created_at = models.DateTimeField(
         auto_now_add=True, verbose_name='Добавлено')
-    
+
     class Meta:
 
         verbose_name = 'местоположение'
